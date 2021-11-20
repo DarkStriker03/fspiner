@@ -64,7 +64,7 @@ class SpinnerMod(loader.Module):
 		way = random.choice([1, -1])
 		frames = []
 		for i in range(1, 60):
-			im = image.rotate(i*12*way)
+			im = image.rotate(i*20*way)
 			frames.append(im)
 		frames.remove(im)
 
